@@ -1,3 +1,4 @@
+import { StoreUiSharedModule } from '@bg-hoard/store/ui-shared';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -13,7 +14,8 @@ import { MatCardModule } from '@angular/material/card';
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
-    MatCardModule
+    MatCardModule,
+    StoreUiSharedModule
   ],
   providers: [],
   bootstrap: [AppComponent],
