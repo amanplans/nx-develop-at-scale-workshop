@@ -17,7 +17,7 @@ import { MatCardModule } from '@angular/material/card';
     RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
     MatCardModule,
     StoreUiSharedModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
